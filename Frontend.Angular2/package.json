@@ -1,0 +1,26 @@
+{
+  "name": "frontend-angular-2",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "gulp clean && gulp frontend && gulp dev",
+    "build": "gulp clean && gulp frontend"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.2",
+    "traceur": "0.0.102",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10",
+    "reflect-metadata": "0.1.2",
+    "systemjs": "0.19.6"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "3.9.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-traceur": "0.17.2",
+    "gulp-webserver": "0.9.1"
+  }
+}

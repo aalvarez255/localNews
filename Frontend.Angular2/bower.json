@@ -1,0 +1,21 @@
+{
+  "name": "frontend-angular-2",
+  "description": "frontend application with angular 2",
+  "main": "index.html",
+  "authors": [
+    "Adrian Alvarez <aalvarez255@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/aalvarez255/localNews",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7"
+  }
+}
